@@ -72,7 +72,7 @@ padding: 15px;
 <ul class="nav navbar-nav">
 <li><a href="/select">Upload Claim Information</a></li>
 <li class="active"><a>Results</a></li>
-<li><a>Source</a></li>
+<li><a href="https://github.com/PriyankaChakraborti/Predict-Pet-Insurance_Claims" target="_blank">GitHub Source</a></li>
 </ul>
 
 </div>
@@ -89,7 +89,7 @@ padding: 15px;
 <br>
 
 <div class=page>
-<h3>Predictions for Chosen Pet</h3>
+<h3>Predictions for Chosen Pet if Claim Placed in July 2019</h3>
 {% for table in table_1 %}
             {{titles[loop.index]}}
             {{ table|safe }}
@@ -97,7 +97,7 @@ padding: 15px;
 </div>
 
 
-<h3>Predictions for All Pets</h3>
+<h3>Predictions for All Pets if Claim Placed in July 2019</h3>
 {% for table in table_2 %}
             {{titles[loop.index]}}
             {{ table|safe }}
